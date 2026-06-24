@@ -1,0 +1,9 @@
+app/
+  page.tsx
+  layout.tsx
+
+components/
+  Hero.tsx
+
+package.json
+next.config.js
