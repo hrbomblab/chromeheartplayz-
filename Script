@@ -1,0 +1,16 @@
+export const metadata = {
+  title: "HR EDGE MLB",
+  description: "Daily Home Run Intelligence Engine"
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body style={{ margin: 0, background: "#000" }}>{children}</body>
+    </html>
+  );
+}
