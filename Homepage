@@ -1,0 +1,26 @@
+export default function Home() {
+  return (
+    <main style={{ background: "#000", color: "#fff", minHeight: "100vh", padding: "40px" }}>
+      <h1 style={{ fontSize: "50px" }}>HR EDGE MLB</h1>
+      <p style={{ color: "#a855f7" }}>
+        Daily Home Run Intelligence Engine
+      </p>
+
+      <div style={{ marginTop: "40px" }}>
+        <h2>🔥 Top HR Picks</h2>
+        <ul>
+          <li>Shohei Ohtani</li>
+          <li>Aaron Judge</li>
+          <li>Kyle Schwarber</li>
+          <li>Yordan Alvarez</li>
+        </ul>
+      </div>
+
+      <div style={{ marginTop: "40px" }}>
+        <h2>☢️ Nuke Parlay</h2>
+        <p>Ohtani • Judge • Schwarber • Alvarez</p>
+        <p style={{ color: "#22c55e" }}>+25000 Odds (Projected)</p>
+      </div>
+    </main>
+  );
+}
