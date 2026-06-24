@@ -1,0 +1,10 @@
+hr-edge-mlb/
+│
+├── app/
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── package.json
+├── next.config.js
+├── tsconfig.json
+└── next-env.d.ts
